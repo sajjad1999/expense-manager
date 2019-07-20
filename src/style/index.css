@@ -132,6 +132,7 @@ body{
     display: block;
 }
 .text-area{
+    resize: none;
     padding-left: 10px;
     padding-top: 5px;
     border: none;

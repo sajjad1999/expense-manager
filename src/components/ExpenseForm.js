@@ -9,7 +9,7 @@ export default class ExpenseForm extends Component{
         super()
         this.state = {
             description: props.expense ? props.expense.description : '',
-            note: props.exepnse ? props.expense.note : '',
+            note: props.expense ? props.expense.note : '',
             amount: props.expense ? props.expense.amount : '',
             createdAt: props.expense ? moment(props.expense.createdAt) : moment(),
             calenderFocused: false,
